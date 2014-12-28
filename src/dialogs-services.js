@@ -10,7 +10,7 @@ angular.module('dialogs.services',['ui.bootstrap.modal','dialogs.controllers'])
 		var _wTmpl = null; // window template
 		var _wSize = 'lg'; // large modal window default
 
-		var _fa = false; // fontawesome flag
+		var _fa = true; // fontawesome flag
 
 		var _setOpts = function(opts){
 			var _opts = {};
